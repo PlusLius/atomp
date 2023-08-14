@@ -1,0 +1,34 @@
+:root {
+  --atomp-body-text-color: #{$dark};
+  --atomp-body-bg-color: #{$white};
+
+  --atomp-btn-primary-color: #{$white};
+  --atomp-btn-primary-bg: #{$green};
+  --atomp-btn-primary-bg-hover: #{$green-light};
+
+  --atomp-btn-secondary-color: #{$white};
+  --atomp-btn-secondary-bg: #{$dark};
+
+  --atomp-form-color: #{$dark};
+  --atomp-form-bg: #{$white};
+  --atomp-form-error-color: #{$red};
+  --atomp-form-error-border: #{$red};
+  --atomp-form-border-focus-color: #{$green};
+
+  --atomp-body-font-size: #{$fs-base};
+  --atomp-body-font-weight: #{$fw-normal};
+
+  --atomp-h1-font-size: #{$h-1};
+  --atomp-h2-font-size: #{$h-2};
+  --atomp-h3-font-size: #{$h-3};
+  --atomp-h4-font-size: #{$h-4};
+  --atomp-h5-font-size: #{$h-5};
+  --atomp-h6-font-size: #{$h-6};
+
+  --atomp-h1-font-weight: #{$fw-medium};
+  --atomp-h2-font-weight: #{$fw-medium};
+  --atomp-h3-font-weight: #{$fw-medium};
+  --atomp-h4-font-weight: #{$fw-normal};
+  --atomp-h5-font-weight: #{$fw-normal};
+  --atomp-h6-font-weight: #{$fw-light};
+}

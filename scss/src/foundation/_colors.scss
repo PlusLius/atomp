@@ -1,0 +1,31 @@
+/*=============================================
+=            Global Text Colors               =
+=============================================*/
+
+$body-text-color: var(--atomp-body-text-color, $dark) !default;
+$body-bg-color: var(--atomp-body-bg-color, $white) !default;
+
+/*=============================================
+=            Buttons                          =
+=============================================*/
+$btn-primary-color: var(--atomp-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--atomp-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--atomp-btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=            Forms                            =
+=============================================*/
+
+$form-color: var(--atomp-form-color, $dark) !default;
+$form-bg-color: var(--atomp-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--atomp-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(
+  --atomp-form-color-option-selected,
+  $white
+) !default;
+$form-bg-color-hover: var(--atomp-form-bg-color-hover, $white-dark) !default;
+$form-color: var(--atomp-form-color, $dark) !default;
+$form-bg: var(--atomp-form-bg, $white) !default;
+$form-error-color: var(--atomp-form-error-color, $red) !default;
+$form-error-border: var(--atomp-form-error-border, $red) !default;
+$form-border-focus-color: var(--atomp-form-border-focus-color, $green) !default;
