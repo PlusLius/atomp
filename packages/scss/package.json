@@ -37,5 +37,6 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
-  }
+  },
+  "gitHead": "f125ef97621063b31ba4786041776f3ef776426b"
 }

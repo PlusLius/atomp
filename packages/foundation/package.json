@@ -20,5 +20,6 @@
     "build": "tsc",
     "dev": "yarn build -w",
     "test": "jest --verbose"
-  }
+  },
+  "gitHead": "f125ef97621063b31ba4786041776f3ef776426b"
 }

@@ -37,5 +37,6 @@
     "test:watch": "yarn test --watch",
     "start-storybook": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook",
     "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
-  }
+  },
+  "gitHead": "f125ef97621063b31ba4786041776f3ef776426b"
 }
