@@ -1,0 +1,10 @@
+@import "foundation/all";
+
+@each $size, $value in $spacing {
+    .atomp-width-#{$size} {
+        width: $value
+    }// sm, lg, xxxs, xs
+    .atomp-height-#{$size} {
+        height: $value
+    }// sm, lg, xxxs, xs
+}

@@ -1,0 +1,152 @@
+/*=============================================
+=            Colors                          =
+=============================================*/
+/* Brand Colors */
+/* Neutral Colors */
+/* Utility Colors */
+/*=====  End of Colors  ======*/
+/*=============================================
+=            Typography                       =
+=============================================*/
+/* Font Familes */
+/* Font Sizes */
+/* Heading Font Sizes */
+/* Font Weights */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoints                      =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=            Global Text Colors               =
+=============================================*/
+/*=============================================
+=            Buttons                          =
+=============================================*/
+/*=============================================
+=            Forms                            =
+=============================================*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*=============================================
+=            Body font family                  =
+=============================================*/
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+/*=============================================
+=            Heading font sizes               =
+=============================================*/
+/*=============================================
+=            Head font weights                =
+=============================================*/
+.body {
+  font-size: 12px;
+}
+
+@media (min-width: 48rem) {
+  .body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 64rem) {
+  .body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 80rem) {
+  .body {
+    font-size: 18px;
+  }
+}
+
+.atomp-width-none {
+  width: 0rem;
+}
+
+.atomp-height-none {
+  height: 0rem;
+}
+
+.atomp-width-xxxs {
+  width: 0.25rem;
+}
+
+.atomp-height-xxxs {
+  height: 0.25rem;
+}
+
+.atomp-width-xxs {
+  width: 0.5rem;
+}
+
+.atomp-height-xxs {
+  height: 0.5rem;
+}
+
+.atomp-width-xs {
+  width: 0.75rem;
+}
+
+.atomp-height-xs {
+  height: 0.75rem;
+}
+
+.atomp-width-sm {
+  width: 1rem;
+}
+
+.atomp-height-sm {
+  height: 1rem;
+}
+
+.atomp-width-md {
+  width: 1.5rem;
+}
+
+.atomp-height-md {
+  height: 1.5rem;
+}
+
+.atomp-width-lg {
+  width: 2rem;
+}
+
+.atomp-height-lg {
+  height: 2rem;
+}
+
+.atomp-width-xl {
+  width: 3rem;
+}
+
+.atomp-height-xl {
+  height: 3rem;
+}
+
+.atomp-width-xxl {
+  width: 4.5rem;
+}
+
+.atomp-height-xxl {
+  height: 4.5rem;
+}
+
+.atomp-width-xxxl {
+  width: 6rem;
+}
+
+.atomp-height-xxxl {
+  height: 6rem;
+}
