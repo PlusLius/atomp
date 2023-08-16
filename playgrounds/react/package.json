@@ -12,6 +12,9 @@
     "typescript": "^5.1.6"
   },
   "private": true,
+  "publishConfig":{
+    "access": "restricted"
+  },
   "scripts": {
     "dev": "parcel src/index.html -p 3000"
   }
