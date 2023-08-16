@@ -1,6 +1,6 @@
 {
   "name": "@atomp/react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -24,7 +24,7 @@
     "rollup-plugin-typescript2": "^0.35.0",
     "typescript": "^5.1.6"
   },
-  "files":[
+  "files": [
     "lib"
   ],
   "publishConfig": {
