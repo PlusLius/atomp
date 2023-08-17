@@ -6,8 +6,11 @@
   "author": "PlusLius <408709581@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.2.5",
     "lerna": "^3.22.1"
   },
   "workspaces": {
@@ -21,8 +24,13 @@
   },
   "private": true,
   "config": {
-    "commitizen":{
-      "path":"cz-conventional-changelog"
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "scripts": {
