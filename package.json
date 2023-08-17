@@ -22,7 +22,7 @@
       "**/normalize-scss"
     ]
   },
-  "private": true,
+  "private":true,
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"

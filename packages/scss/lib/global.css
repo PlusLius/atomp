@@ -562,3 +562,9 @@ template {
   --atomp-h5-font-weight: 400;
   --atomp-h6-font-weight: 3 0;
 }
+
+body {
+  font-family: var(--atomp-body-font-family, "Playfair Display", serif);
+  font-size: var(--atomp-body-font-size, 0.875rem);
+  font-weight: var(--atomp-body-font-weight, 400);
+}
