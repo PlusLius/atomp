@@ -1,7 +1,7 @@
 import React from "react";
 import { Spacing } from '@atomp/foundation'
 
-interface MarginProps {
+export interface MarginProps {
     space?: keyof typeof Spacing,
     children?: React.ReactNode,
     left?: Boolean,
