@@ -8,7 +8,6 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
-  "private": true,
   "workspaces": {
     "packages": [
       "packages/*",
@@ -22,6 +21,6 @@
     "build":"yarn lerna run build",
     "dev":"yarn lerna run dev",
     "test":"yarn lerna run test",
-    "publish": "yarn test && yarn build && yarn lerna run publish"
+    "publishs": "yarn test && yarn build && yarn lerna run publish"
   }
 }
