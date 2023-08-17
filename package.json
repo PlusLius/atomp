@@ -6,6 +6,8 @@
   "author": "PlusLius <408709581@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "lerna": "^3.22.1"
   },
   "workspaces": {
@@ -17,10 +19,17 @@
       "**/normalize-scss"
     ]
   },
+  "private": true,
+  "config": {
+    "commitizen":{
+      "path":"cz-conventional-changelog"
+    }
+  },
   "scripts": {
-    "build":"yarn lerna run build",
-    "dev":"yarn lerna run dev",
-    "test":"yarn lerna run test",
-    "publishs": "yarn test && yarn build && yarn lerna run publish"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev",
+    "test": "yarn lerna run test",
+    "publishs": "yarn test && yarn build && yarn lerna run publish",
+    "commit": "yarn git-cz"
   }
 }
